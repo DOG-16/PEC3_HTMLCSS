@@ -1,0 +1,45 @@
+/* Autor: DANIEL OLIVA GOMEZ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+   *, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container, .container-no-index {
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    background-color:  #F5F5F7;
+    /* border-style: solid; */
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; 
+}
+
+/* FOOTER --------------------------------------------------------------*/
+.footer, .footer-no-index {
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 9px;
+    line-height: 20px;
+    padding: 20px 0 40px 330px;
+    font-weight: 400;
+    margin-top: auto;
+}
+
+abbr {
+    cursor: help;
+}
