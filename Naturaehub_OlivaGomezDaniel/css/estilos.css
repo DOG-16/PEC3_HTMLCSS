@@ -55,6 +55,9 @@ li{
     font-weight: 700;
     font-size: 11px;
 }
+.link-header:hover, .link-footer:hover{
+    color: rgb(64, 195, 130);
+}
 
 
 /* FOOTER --------------------------------------------------------------*/
@@ -70,24 +73,34 @@ li{
     font-size: 9px;
     line-height: 20px;
     padding: 20px 0 40px 0;
-    font-weight: 400;
     margin-top: auto;
-    border-style: solid;
-    border-color: blue;
+    font-weight: 400;
 }
 .img-footer{
     max-width: 150px;
     margin-bottom: 6px;
-    border-style: solid;
-    border-color: red;
 }
 .socials{
-    border-style: solid;
-    border-color: orange;
+    display: flex;
+    margin-top: 4px;
+    /* border: 1px solid red; */
 }
 .politicas{
-    border-style: solid;
-    border-color: brown;
+    line-height: 15px;
+}
+.img-socials{
+    width: auto;
+    object-fit: contain;
+    height: 12px;
+    /* border: 1px solid blue; */
+}
+.img-socials:hover{
+    opacity: 0.7;
+    /* border: 1px solid blue; */
+}
+.link-footer{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 abbr{
     cursor: help;
