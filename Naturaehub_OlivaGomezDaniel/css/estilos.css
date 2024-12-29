@@ -46,7 +46,6 @@ li{
 .link-header:hover, .link-footer:hover{
     color: rgb(64, 195, 130);
 }
-
 @media (min-width: 1201px) {
     .header{
         flex-direction: row;
@@ -114,7 +113,6 @@ li{
 .link-texto:hover{
     border-bottom: 1px solid rgb(0, 0, 0);
 }
-
 @media (min-width: 1201px) {
     #defensores-h1{
         font-size: 3.5em;
@@ -149,8 +147,7 @@ li{
 }
 #about-checkbox{
     margin-top: 13px;
-    margin-bottom: 15px;
-}
+    margin-bottom: 15px;}
 .about-checkbox-p{
     font-size: 14px;
 }
@@ -172,11 +169,28 @@ p{
 .input-text{
     width: 100%;
     border: none;
+    height: 25px;
+    margin-top: 7px;
 }
 .input-text:focus{
     border: 1px solid black;
     font-size: 14px;
     padding-left: 5px;
+}
+@media (min-width: 1201px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 21em;
+        gap: 75px;
+        justify-content: center;
+    }
+    .about-p{
+        font-size: 19px;
+    }
+    .about-container-form{
+        width: 35em;
+    }
 }
 
 /* STORIES --------------------------------------------------------------*/
@@ -221,15 +235,30 @@ p{
     gap: 30px;
     margin-top: 1em;
 }
-
-
-
-
-
-
-
-
-
+@media (min-width: 1201px) {
+    .stories{
+        padding: 0px 21em;
+    }
+    .stories-p{
+        font-size: 19px;
+    }
+    .stories-flex{
+        flex-direction: row;
+        height: 14em;
+        gap: 50px;
+    }
+    .story{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    .link-btn{
+        align-self: flex-end;
+        margin-top: 0;
+        margin-top: auto;
+        align-self: flex-start;
+    }
+}
 
 
 /* FIN INDEX ************************************************************************************************** */
