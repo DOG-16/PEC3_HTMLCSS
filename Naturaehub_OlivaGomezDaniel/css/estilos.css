@@ -72,8 +72,7 @@ li{
 /* DEFENSORES --------------------------------------------------------------*/
 
 .defensores{
-    border: 1px solid blue;
-    position: absolute;
+    position: relative;
     background-image: url('../img/hero-image-home.jpg'); 
     background-size: cover;
     background-position: center; 
@@ -86,15 +85,13 @@ li{
     color: white; 
     text-align: center; 
 }
-.defensores-texto{
-    border: 1px solid red;
-}
 #defensores-h1{
     font-size: 2.3em;
     margin-bottom: 0.9em;
 }
 #defensores-p{
     font-size: 1.7em;
+    padding: 0 10px;
 }
 .defensores-autor{
     position: absolute;
@@ -129,9 +126,45 @@ li{
 
 /* ABOUT --------------------------------------------------------------*/
 
-
-
-
+.about{
+    position: relative;
+    padding-bottom: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 3em;
+    padding: 0 10px;
+}
+.about-p{
+    white-space: pre-line;
+    margin-bottom: 15px;
+}
+#about-email{
+    margin-top: 15px;
+}
+#about-antes{
+    margin-top: 11px;
+    font-size: 11px;
+}
+#about-checkbox{
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: transparent;
+    padding: 7px;
+    border-width: 1px;
+}
+.btn:hover{
+    border-color: rgb(64, 195, 130);
+}
+p{
+    white-space: pre-line;
+}
+.input-text{
+    width: 100%;
+    border: none;
+}
 
 
 
@@ -151,7 +184,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0px;
     background-color: #000000;
