@@ -192,6 +192,11 @@ p{
         width: 35em;
     }
 }
+@media (min-width: 361px) and (max-width: 1200px) {
+    .input-text{
+        width: 60%;
+    }
+}
 
 /* STORIES --------------------------------------------------------------*/
 
@@ -242,6 +247,24 @@ p{
     .stories-p{
         font-size: 19px;
     }
+    .stories-flex{
+        flex-direction: row;
+        height: 14em;
+        gap: 50px;
+    }
+    .story{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    .link-btn{
+        align-self: flex-end;
+        margin-top: 0;
+        margin-top: auto;
+        align-self: flex-start;
+    }
+}
+@media (min-width: 361px) and (max-width: 1200px) {
     .stories-flex{
         flex-direction: row;
         height: 14em;
