@@ -286,6 +286,196 @@ p{
 
 /* FIN INDEX ************************************************************************************************** */
 
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* TEMA DEL MES *********************************************************************************************** */
+/* INTRODUCCIÓN --------------------------------------------------------------*/
+
+.introduccion{
+    text-align: center;
+    padding: 10px;
+}
+#enero{
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 195, 130);
+    padding: 5px;
+}
+.introduccion-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.tm-menu-nav-ul{
+    font-weight: 900;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: flex-start; */
+    padding: 0 10px;
+}
+.tm-menu-nav-link{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+.tm-menu-nav-link:hover{
+    color: rgb(64, 195, 130);
+}
+.tm-menu-nav-ul li:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background-color: rgb(64, 195, 130);
+    border-radius: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+/* CONTENIDO --------------------------------------------------------------*/
+
+.tm-container-x{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.tm-container-xx{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 5em;
+}
+.tm-animal{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.tm-animal-pic-background{
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+}
+.tm-animal-img{
+    width: 100%;
+}
+.tm-animal-titulo-h2{
+    font-size: 35px;
+}
+.tm-animal-titulo-h3{
+    font-size: 25px;
+}
+.tm-animal-titulo-p, .tm-animal-description-p{
+    font-size: 15px;
+}
+.link-tm-animal-description-p{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    display: inline;
+    font-style: italic;
+    text-decoration: underline dotted;
+    text-decoration-thickness: from-font; 
+    text-underline-offset: 3px;
+}
+.link-tm-animal-description-p:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.tm-animal-pic-p{
+    font-size: 11px;
+    margin-top: 10px;
+}
+@media (min-width: 361px) and (max-width: 1200px) {
+    .introduccion-titulo{
+        flex-direction: row;
+    }
+    #enero{
+        margin-left: 5px;
+    }
+}
+@media (min-width: 1201px) {
+    .introduccion{
+        font-size: 1.3em;
+    }
+    .introduccion-titulo{
+        flex-direction: row;
+        font-size: 1.2em;
+    }
+    #enero{
+        margin-left: 5px;
+    }
+    .tm-container-x{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 2em;
+    }
+    .tm-menu-nav-ul{
+        font-weight: 900;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10px;
+        width: 106px;
+    }
+    .tm-menu-nav-ul li:not(:last-child)::after {
+        content: none;
+        display: none;
+    }
+    .tm-container-xx{
+        margin-top: 0;
+    }
+    .tm-animal{
+        display: grid;
+        grid-template-columns: 100px 14.5em 100px auto 25px auto;
+    }
+    .tm-animal-titulo{
+        grid-column: 2;
+    }
+    .tm-animal-pic{
+        grid-column: 4;
+    }
+    .tm-animal-titulo-h2{
+        font-size: 30px;
+    }
+    .tm-animal-titulo-h3{
+        font-size: 20px;
+    }
+    .tm-animal-titulo-p, .tm-animal-description-p{
+        font-size: 14px;
+    }
+    .tm-animal-description{
+        grid-column: 6;
+    }
+}
+
+/* FIN TEMA MES ************************************************************************************************ */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* BLOG ************************************************************************************************ */
+/* INTRODUCCION --------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIN BLOG ************************************************************************************************ */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
 /* FOOTER --------------------------------------------------------------*/
 .footer{
     display: flex;
