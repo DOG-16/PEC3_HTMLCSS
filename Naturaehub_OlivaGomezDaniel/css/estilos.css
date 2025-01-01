@@ -566,7 +566,30 @@ p{
     }
 }
 @media (min-width: 1201px) {
-
+    .blog-container{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        row-gap: 40px;
+        column-gap: 65px;
+        padding: 0 3em;
+    }
+    .blog-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .link-blog-p-p{
+        margin-bottom: 4em;
+    }
+    .link-btn-blog{
+        position: absolute;
+        bottom: 15px;
+    }
+    .blog-item-content{
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        flex-grow: 1;
+        position: relative;
+    }
 }
 
 
