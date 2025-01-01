@@ -546,13 +546,23 @@ p{
     .blog-container{
         display: grid;
         grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: repeat(3, 525px);
         row-gap: 40px;
         column-gap: 65px;
-        border: 1px solid blue;
     }
     .blog-item{
-        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+    }
+    .link-btn-blog{
+        position: absolute;
+        bottom: 15px;
+    }
+    .blog-item-content{
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        flex-grow: 1;
+        position: relative;
     }
 }
 @media (min-width: 1201px) {
