@@ -453,12 +453,97 @@ p{
     }
 }
 
+
 /* FIN TEMA MES ************************************************************************************************ */
 
 /* ------------------------------------------------------------------------------------------------------------ */
 
 /* BLOG ************************************************************************************************ */
-/* INTRODUCCION --------------------------------------------------------------*/
+
+.blog-container{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.blog-item-pic{
+    position: relative;
+}
+.blog-item-img{
+    width: 100%;
+    display: block;
+}
+.blog-item-autor{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    background-color: rgba(242, 242, 230, 0.7);
+    padding: 5px;
+}
+#blog-item-autor-p{
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+}
+.blog-item-content{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 0;
+}
+.link-blog-h3{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+.link-blog-h3:hover{
+    color: rgb(64, 195, 130);
+}
+.link-blog-p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.link-btn-blog{
+    background-color: transparent;
+    padding: 7px;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.link-btn-blog:hover{
+    border-color: rgb(64, 195, 130);
+}
+.blog-container-enum{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+.link-btn-blog-enum{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: center;
+    width: 25px;
+    height: 25px;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.link-btn-blog-enum:hover, #link-btn-blog-enum-actual{
+    background-color: rgb(64, 195, 130);
+    border-color: rgb(64, 195, 130);
+    color: rgb(255, 255, 255);
+}
 
 
 
@@ -467,9 +552,12 @@ p{
 
 
 
+@media (min-width: 361px) and (max-width: 1200px) {
+    
+}
+@media (min-width: 1201px) {
 
-
-
+}
 
 
 /* FIN BLOG ************************************************************************************************ */
